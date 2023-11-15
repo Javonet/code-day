@@ -12,9 +12,12 @@
             var remoteNode = Javonet.Tcp(remoteConnectionData).Netcore();
             remoteNode.LoadLibrary("Bank.Scoring.dll");
             var scoringEstimator = remoteNode.GetType("Bank.Scoring.ScoringEstimator").CreateInstance().Execute();
-            var response = scoringEstimator.InvokeInstanceMethod("ComputeScore", 87052611711).Execute();
-            var result = response.GetValue();
-            Console.WriteLine("Result: " + result);
+            for (int i = 1; i < 10000; i++)
+            {
+                var response = scoringEstimator.InvokeInstanceMethod("ComputeScore", 87052611711).Execute();
+                var result = response.GetValue();
+                Console.WriteLine("Result: " + result);
+            }
         }
     }
 }

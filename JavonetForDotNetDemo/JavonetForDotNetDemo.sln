@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34302.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonLangchainDemo", "PythonLangchainDemo\PythonLangchainDemo.csproj", "{35BF6CEE-A071-43A7-86B8-2F77A1AD693D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PythonLangchainDemo", "PythonLangchainDemo\PythonLangchainDemo.csproj", "{35BF6CEE-A071-43A7-86B8-2F77A1AD693D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankScoringWithJavonetDemo", "BankScoringWithJavonetDemo\BankScoringWithJavonetDemo.csproj", "{04BAEAA6-A608-42B5-959A-B23C0980FB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankScoringWithJavonetDemo", "BankScoringWithJavonetDemo\BankScoringWithJavonetDemo.csproj", "{04BAEAA6-A608-42B5-959A-B23C0980FB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankScoringWithWebServiceDemo", "BankScoringWithWebServiceDemo\BankScoringWithWebServiceDemo.csproj", "{6E33661D-D0F4-47C8-BF10-C14C7E96B0C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{04BAEAA6-A608-42B5-959A-B23C0980FB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04BAEAA6-A608-42B5-959A-B23C0980FB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04BAEAA6-A608-42B5-959A-B23C0980FB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E33661D-D0F4-47C8-BF10-C14C7E96B0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E33661D-D0F4-47C8-BF10-C14C7E96B0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E33661D-D0F4-47C8-BF10-C14C7E96B0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E33661D-D0F4-47C8-BF10-C14C7E96B0C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
